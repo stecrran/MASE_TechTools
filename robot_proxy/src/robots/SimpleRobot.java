@@ -1,0 +1,27 @@
+package robots;
+
+import java.util.Observable;
+
+import profile.Profile;
+import profile.TimeUnits;
+
+@Profile(timeUnits = TimeUnits.SECONDS)
+public class SimpleRobot extends Observable implements Robot {
+	
+	private String name;
+
+	public SimpleRobot(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+
+	@Override
+	public void move(int x, int y) {
+		System.out.println("Robot " + getName() + " is moving " + "x = " + x + " and y = " + y);
+		
+	}
+
+}
