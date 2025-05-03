@@ -1,0 +1,13 @@
+// TODO:
+// Copy in your code from Rng.js, to generate a random exam mark between 1 and 100.
+
+
+// The following statement generates a simple HTML web page to display the exam mark (we've assumed the variable is called examMark here).
+var response = 
+	"<html>" +
+    "<head><title>Random Number Generator</title></head>" + 
+    "<body style='font-family:Calibri'><p>Random exam mark: <b>" + examMark + "</b></p></body>" + 
+	"</html>";
+	
+// The following statement evaluates the variable, i.e. the HTML web page.
+response;

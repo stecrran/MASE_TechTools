@@ -1,0 +1,8 @@
+/Users/chrisczarnecki/courses/en-lighten/ericsson/java_8/exercises/functional_interfaces_solution/src/main/java/main/Driver.java
+/Users/chrisczarnecki/courses/en-lighten/ericsson/java_8/exercises/functional_interfaces_solution/src/main/java/domain/LimitOrder.java
+/Users/chrisczarnecki/courses/en-lighten/ericsson/java_8/exercises/functional_interfaces_solution/src/main/java/domain/Transferable.java
+/Users/chrisczarnecki/courses/en-lighten/ericsson/java_8/exercises/functional_interfaces_solution/src/main/java/domain/MarketOrder.java
+/Users/chrisczarnecki/courses/en-lighten/ericsson/java_8/exercises/functional_interfaces_solution/src/main/java/domain/Broker.java
+/Users/chrisczarnecki/courses/en-lighten/ericsson/java_8/exercises/functional_interfaces_solution/src/main/java/domain/Side.java
+/Users/chrisczarnecki/courses/en-lighten/ericsson/java_8/exercises/functional_interfaces_solution/src/main/java/domain/Order.java
+/Users/chrisczarnecki/courses/en-lighten/ericsson/java_8/exercises/functional_interfaces_solution/src/main/java/domain/Currency.java

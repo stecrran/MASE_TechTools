@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="tus/string/calc/" kind="src" path="PJava/src"/>
+	<classpathentry kind="src" path="PJava/src/tus/string/calc"/>
+	<classpathentry kind="src" path="robot_proxy/src"/>
+	<classpathentry kind="src" path="TechTools/src"/>
+	<classpathentry kind="src" path="test/src"/>
+	<classpathentry kind="output" path="TechTools/bin"/>
+</classpath>

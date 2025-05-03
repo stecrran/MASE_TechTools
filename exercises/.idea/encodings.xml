@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/challenge_solution" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/concurrency_example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/concurrency_example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/date_time" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/date_time/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/date_time_solution" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/date_time_solution/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enhanced_concurrency" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enhanced_concurrency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enhanced_concurrency_solution" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enhanced_concurrency_solution/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/functional_interfaces" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/functional_interfaces/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/functional_interfaces/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/functional_interfaces_solution" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/functional_interfaces_solution/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/functional_interfaces_solution/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/further_streams" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/further_streams/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/further_streams_solution" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/further_streams_solution/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/intro_lambdas" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/intro_lambdas/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/intro_lambdas_solution" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/intro_lambdas_solution/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nashorn" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nashorn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nashorn_solution" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nashorn_solution/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parallel_streams_solution" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parallel_streams_solution/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/streams_stretch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/streams_stretch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/streams_stretch_solution" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/streams_stretch_solution/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

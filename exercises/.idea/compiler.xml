@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="date_time" />
+        <module name="nashorn_solution" />
+        <module name="parallel_streams_solution" />
+        <module name="further_streams" />
+        <module name="nashorn" />
+        <module name="challenge_solution" />
+        <module name="enhanced_concurrency_solution" />
+        <module name="intro_lambdas_solution" />
+        <module name="date_time_solution" />
+        <module name="streams_stretch" />
+        <module name="intro_lambdas" />
+        <module name="streams_stretch_solution" />
+        <module name="further_streams_solution" />
+        <module name="enhanced_concurrency" />
+        <module name="functional_interfaces" />
+        <module name="functional_interfaces_solution" />
+        <module name="concurrency_example" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="functional_interfaces (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

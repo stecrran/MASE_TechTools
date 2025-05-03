@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+ 
+  <groupId>com.en-lighten</groupId>
+  <artifactId>java-8-course-parent-project</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+ 
+  <name>parent-project</name>
+  <url>http://maven.apache.org</url>
+ 
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <modules>
+    <module>date_time</module>
+    <module>date_time_solution</module>
+    <module>intro_lambdas</module>
+    <module>intro_lambdas_solution</module>
+    <module>functional_interfaces</module>
+    <module>functional_interfaces_solution</module>
+    <module>further_streams</module>
+    <module>further_streams_solution</module>
+    <module>streams_stretch</module>
+    <module>streams_stretch_solution</module>
+    <module>concurrency_example</module>
+    <module>nashorn</module>
+    <module>nashorn_solution</module>
+    <module>enhanced_concurrency_solution</module>
+    <module>enhanced_concurrency</module>
+    <module>parallel_streams_solution</module>
+    <module>challenge_solutionr</module>
+  </modules>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

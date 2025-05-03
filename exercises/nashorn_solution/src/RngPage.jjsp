@@ -1,0 +1,15 @@
+var Random = java.util.Random;
+
+var generator = new Random();
+var number = generator.nextDouble() * 100;
+var examMark = Math.floor(number) + 1;
+
+print("Random exam mark: " + examMark);
+
+var response = 
+	"<html>" +
+    "<head><title>Random Number Generator</title></head>" + 
+    "<body style='font-family:Calibri'><p>Random exam mark: <b>" + examMark + "</b></p></body>" + 
+	"</html>";
+	
+response;
