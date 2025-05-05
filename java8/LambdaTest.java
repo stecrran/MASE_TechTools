@@ -10,6 +10,8 @@ import static java.util.stream.Collectors.toList;
 public class LambdaTest {
 
 	public static void main(String[] args) {
+		// Write a method that: 
+		// - Takes a List<Integer> and Returns the average of the integers as a double
 		List<Integer> testInts = Arrays.asList(1,2,3,4,5,6,7,8);
 		//System.out.println(returnAverage(testInts));
 		//System.out.println(returnUpperCase(Arrays.asList("a","b","c")));
@@ -41,7 +43,14 @@ public class LambdaTest {
 				.filter(s -> s.length() == 3)
 				.collect(toList());
 	}
-	
+
+
+	/* Write a method that:
+	 *-Takes a List<Integer>
+	 *-Returns a comma separated String based of the integers
+	 *-With the integer prefixed with e if the number is even
+         *-With the integer prefixed with o if the number is odd 
+	*/
 	public static String testIntList(List<Integer> listInts) {
 //		String test = listInts.stream().filter(i -> {
 //			return i % 2 != 0;
