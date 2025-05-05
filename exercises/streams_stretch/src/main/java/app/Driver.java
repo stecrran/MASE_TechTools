@@ -1,4 +1,4 @@
-package main;
+package app;
 
 import java.util.List;
 
@@ -19,6 +19,7 @@ import static java.util.stream.Collectors.toList;
 import java.util.ArrayList;
 
 public class Driver {
+
 
     public static void main(String[] args) {
         Trader dave = new Trader("Dave", "Athlone");

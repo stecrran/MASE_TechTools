@@ -1,18 +1,21 @@
 package Collections;
 
-import java.util.Comparator;
-
-public class Order implements Comparator<Order> {
+public class Order implements Comparable<Order> {
 
     public String symbol;
-    public int amount;
+    public double amount;
     public String currency;
     public static int numberOfOrders;
+    
+    public Order(String symbol, double amount, String currency){
+        this.symbol = symbol;
+        this.amount = amount;
+        this.currency = currency;
+        numberOfOrders++;
+    }
 
     public Order(){
-        this.symbol = "UNDEFINED";
-        this.amount = 0;
-        this.currency = "USD";
+    	this("undefined", 0.0, "USD");
         numberOfOrders++;
     }
 
@@ -24,11 +27,11 @@ public class Order implements Comparator<Order> {
         this.symbol = symbol;
     }
 
-    public int getAmount() {
+    public double getAmount() {
         return amount;
     }
 
-    public void setAmount(int amount) {
+    public void setAmount(double amount) {
         this.amount = amount;
     }
 
@@ -66,10 +69,11 @@ public class Order implements Comparator<Order> {
     }
 
 
-    @Override
-    public int compare(Order o1, Order o2) {
-        return o2.getAmount().compareTo(o2.getAmount());
-    }
+	@Override
+	public int compareTo(Order o) {
+		return Double.compare(this.getAmount(),o.getAmount());
+
+	}
 
 
 }

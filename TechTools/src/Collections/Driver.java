@@ -26,7 +26,7 @@ public class Driver {
             System.out.println(order);
         }
 
-       // Collections.sort(orders);
+       Collections.sort(orders);
 
         System.out.println("After:");
         for (Order order : orders) {
