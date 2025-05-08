@@ -1,0 +1,7 @@
+onlineRetailer:
+  salesTaxRate: 0.20
+  deliveryCharge: 
+    normal: 2.50
+    threshold: 3000
+
+
