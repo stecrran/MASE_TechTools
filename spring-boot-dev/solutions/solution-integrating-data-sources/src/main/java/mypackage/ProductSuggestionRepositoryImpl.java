@@ -66,6 +66,19 @@ public class ProductSuggestionRepositoryImpl implements ProductSuggestionReposit
 		Query query = entityManager.createQuery("delete from ProductSuggestion");
 		query.executeUpdate();
 	}
+
+	@Override
+	public int increasePriceForPopularProducts(long sales) {
+		String jpql = "update ProductSuggestion " +
+				"set recommendedPrice = recommendedPrice*1.1 " +
+				"where estimatedAnnualSales >= :s";
+		Query query = entityManager.createQuery(jpql);
+		query.setParameter("s", sales);
+		
+		int numRowsAffected = query.executeUpdate();
+		return numRowsAffected;
+		
+	}
 	
 	
 

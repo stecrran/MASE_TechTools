@@ -30,4 +30,7 @@ public interface ProductSuggestionRepository {
     // Delete all product suggestions from the database.
     @Transactional
     void deleteProductSuggestions();
+    
+    @Transactional
+    int increasePriceForPopularProducts(long sales);
 }

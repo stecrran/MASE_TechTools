@@ -39,6 +39,10 @@ public class Application {
         ProductSuggestionRepository productRepo = context.getBean(ProductSuggestionRepository.class);
         productRepo.modifyPrice(2, 60);
 //        System.out.println(productRepo.getProductSuggestions());
+        
+        int rowsIncrPrice = productRepo.increasePriceForPopularProducts(200L);
+        System.out.println("increasing price affected " + rowsIncrPrice + " rows");
+        
 
         ProductSuggestionCrudRepository pcr = context.getBean(ProductSuggestionCrudRepository.class);
         
@@ -64,8 +68,8 @@ public class Application {
             System.out.println("modifying price affected " + rowsModifyPrice + " rows");
         }
 
-        int rowsIncrPrice = pcr.increasePrice(200L);
-        System.out.println("increasing price affected " + rowsIncrPrice + " rows");
+        int rowsIncrPriceCRUD = pcr.increasePrice(200L);
+        System.out.println("increasing price using CRUD affected " + rowsIncrPriceCRUD + " rows");
         for (ProductSuggestion ps : pcr.findAll()) {
         	System.out.println(ps);
         }
